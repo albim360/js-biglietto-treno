@@ -7,6 +7,7 @@ const prezzoFinaleDisplay = document.getElementById('prezzoFinale');
 // Fix per input 0 + prompt per sapere e calcolare km total
 let kmTotali = parseFloat(prompt('Quanti km devi percorrere?'));
 if (isNaN(kmTotali)) {
+    alert("Devi inserire un numero");
     kmTotali = 0;
 }
 
@@ -17,6 +18,7 @@ prezzoFinale = prezzoFinale.toFixed(2);
 // Prompt per sapere gli anni per i calcoli
 let userAge = parseFloat(prompt('Quanti anni hai?'));
 if (isNaN(userAge)) {
+    alert("Devi inserire un numero");
     userAge = 0;
 }
 
