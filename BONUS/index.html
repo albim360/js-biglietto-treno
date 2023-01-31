@@ -4,18 +4,36 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Trenitalia</title>
+    <title>Biglietteria</title>
     <link rel="stylesheet" href="./css/style.css">
     <script src="https://kit.fontawesome.com/0f02baec12.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <h1>Biglietto</h1>
-    <p>Nome e Cognome: <span id="nomeCognome"></span></p>
-    <p>Km totali: <span id="kmTotali"></span></p>
-    <p>Prezzo base: <span id="prezzoBase"></span></p>
-    <p>Sconto: <span id="valoreSconto"></span></p>
-    <p>Prezzo finale: <span id="prezzoFinale"></span></p>
-
-    <script src="./js/app.js"></script>
-  </body>
+  <header>
+    <h1>Biglietteria</h1>
+  </header>
+  <nav class="navbar">
+    <a href="#">Home</a>
+    <a href="#">Servizi</a>
+    <a href="#">Orari</a>
+    <a href="#">Biglietti</a>
+    <a href="#">Contatti</a>
+  </nav>
+  <main>
+    <div class="container">
+      <div class="biglietto">
+        <h2>Biglietto</h2>
+        <p>Nome e cognome: <span id="nomeCognome"></span></p>
+        <p>Km totali: <span id="kmTotali"></span></p>
+        <p>Prezzo base: <span id="prezzoBase"></span></p>
+        <p>Sconto: <span id="valoreSconto"></span></p>
+        <p>Prezzo finale: <span id="prezzoFinale"></span></p>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <p>Copyright &copy; Biglietteria 2023</p>
+  </footer>
+  <script src="./js/app.js"></script>
+</body>
 </html>
